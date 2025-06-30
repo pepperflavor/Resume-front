@@ -7,25 +7,25 @@ export default function TabBar() {
         href={"/projects"}
         className="flex flex-col items-center justify-center gap-px"
       >
-        <div className="flex w-10 h-7 bg-red-500">Project</div>
+        <div className="flex w-10 h-10 bg-red-500">Project</div>
       </Link>
       <Link
         href={"/learn"}
         className="flex flex-col items-center justify-center gap-px"
       >
-        <div className="flex w-10 h-7 bg-yellow-300">Learn</div>
+        <div className="flex w-10 h-10 bg-yellow-300">Learn</div>
       </Link>
       <Link
         href={"/greeting"}
         className="flex flex-col items-center justify-center gap-px"
       >
-        <div className="flex w-10 h-7 bg-green-400">Greeting</div>
+        <div className="flex w-10 h-10 bg-green-400">Greeting</div>
       </Link>
       <Link
         href={"/"}
         className="flex flex-col items-center justify-center gap-px"
       >
-        <div className="flex w-10 h-7 bg-blue-400">Home</div>
+        <div className="flex w-10 h-10 bg-blue-400">Home</div>
       </Link>
     </div>
   );
